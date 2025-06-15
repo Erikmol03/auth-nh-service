@@ -1,0 +1,39 @@
+{
+  "name": "auth-nh-service",
+  "version": "1.0.0",
+  "description": "Microservicio de la apliación NovaHire enfocado en la autenticación y envío de correos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erikmol03/auth-nh-service.git"
+  },
+  "keywords": [],
+  "author": "Erik Molina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Erikmol03/auth-nh-service/issues"
+  },
+  "homepage": "https://github.com/Erikmol03/auth-nh-service#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.1",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/node": "^24.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
